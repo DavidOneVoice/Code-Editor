@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 120vh;
+}
+
+.editor-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid gold;
+    background-color: black;
+    color: gold;
+}
+
+#brand-name{
+    margin-left: 1em;
+}
+
+.editor-pane {
+    flex: 1;
+    box-sizing: border-box;
+    border: 5px solid rgb(112, 112, 112);
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: -1em;
+}
+
+.editor-pane h4{
+    margin-left: 0.5em;
+}
+
+textarea {
+    width: 97%;
+    margin-top: -1.5em;
+    height: calc(30vh - 40px); /* 30% height minus padding */
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 0.5em;
+}
+
+.preview {
+    width: 50%;
+    height: 118vh;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.preview h2{
+    text-align: center;
+}
+
+#preview {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
